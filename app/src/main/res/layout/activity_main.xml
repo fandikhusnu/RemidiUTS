@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="xir5n11.remidiuts.telkomschid.remidiuts.MainActivity">
+
+    <Button
+        android:id="@+id/buttonSwipe"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Swipe Views" />
+
+    <Button
+        android:id="@+id/buttonTab"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonSwipe"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Tabs Views" />
+
+    <Button
+        android:id="@+id/buttonSpinner"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonSwipe"
+        android:layout_marginTop="38dp"
+        android:text="Spinner Views" />
+
+    <Button
+        android:id="@+id/buttonDrawer"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonSpinner"
+        android:layout_alignBottom="@+id/buttonSpinner"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Drawer Views" />
+</RelativeLayout>
